@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="icomoon/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
@@ -13,7 +14,7 @@
 	<nav>
 		<div class="container">	
 			<h1>Star bootstrap</h1>
-				<ul>
+				<ul class="botones">
 					<li><strong><a href="#"></a>Portfolio</strong></li>
 					<li><strong><a href="#"></a>About</strong></li>
 					<li><strong><a href="#"></a>Contact</strong></li>
@@ -35,6 +36,13 @@
 	<section class="portafolio">
 		<div class="container">
 			<h3>Portfolio</h3>
+
+			<div class="linea-izq1"></div>
+        		<div class="estrella1">
+            		<i class="fa fa-star" aria-hidden="true"></i>
+        		</div>
+        	<div class="linea-der1"></div>
+
 			<div>
 				<div>
 					<div class="primeros3" id="uno"></div>
@@ -65,6 +73,12 @@
 	<section class="about">
 		<div class="container">
 			<h3>About</h3>
+			<div class="linea-izq2"></div>
+        	<div class="estrella2">
+            		<i class="fa fa-star" aria-hidden="true"></i>
+        	</div>
+        	<div class="linea-der2"></div>
+
 			<div>
 				<table>
             		<tr>
@@ -80,36 +94,52 @@
 		</div>
 	</section>
 
-	<!-- Sección que contiene CONTACTME -->
-	<section class="contactame">
-			<div class="container1">
-				<h3><strong>Contact me</strong></h3>
-					<div>
-						<p>Name<hr></p>
-						<p>Email Address<hr></p>
-						<p>Phone Number<hr></p>
-						<p>Message<hr></p>
-						<div class="boton"><p>Send</p>
-					</div>
-				</div>
-			</div>
-	</section>
+	<!-- Nueva sección. CONTACT-ME. creando columnas -->
+	<section class="contact">
+        <h1>contact me</h1>
+        <div class="linea-izq3"></div>
+       	<div class="estrella3">
+           	<i class="fa fa-star" aria-hidden="true"></i>
+        </div>
+        <div class="linea-der3"></div>
 
-	<!-- ültima sección. FOOSTER -->
+        <!-- formulario -->
+        <div class="contact-form">
+            <form action="contact-me">
+                <div class="nombre">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="mail">
+                    <input type="text" placeholder="Email Address">
+                </div>
+                <div class="telefono">
+                    <input type="number" placeholder="Phone Number">
+                </div>
+                <div class="mensaje">
+                    <textarea id="mensaj" rows="6" cols="60" placeholder="Message"></textarea>
+                </div>
+                <div>
+                    <button class="but" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
-	<section class="fooster">
+	<!-- ültima sección. FOOTER -->
+
+	<section class="footer">
 		<div class="container2">
 			<div>
 				<table>
             		<tr>
                 		<td class="colum1">
                 		<h2>Location</h2>
-                		3481 Melrose Place Beverly Hills, CA 90210</td>
+                		<h3>3481 Melrose Place Beverly Hills, CA 90210</h3></td>
                 		<td class="colum2">
                 		<h2>Around the web</h2></td>
-                		<td class="colum3">}
+                		<td class="colum3">
                 		<h2>About freelancer</h2>
-                		Frelancer is a to use, open source Bootstrap theme created by <a class="enlaceA" href="#">Start Bootstrap</a></td>
+                		<h3>Frelancer is a to use, open source Bootstrap theme created by <a class="enlaceA" href="#">Start Bootstrap</a></h3></td>
             		</tr>
         		</table>
 			</div>
@@ -118,18 +148,6 @@
 			</div>
 		</div>
 	</section>
-	<section class="container3">
-		
-		
-	</section>>
 </body>
 </html>
-<!--font-family: 'Lato', sans-serif;
-	font-family: 'Montserrat', sans-serif; 
-	PARA CENTRAR!
-margin: 0 auto;
-text aling center: al padre
-#2c3e50, #18bc9c, #212529.
 
-	centra un div= 
--->

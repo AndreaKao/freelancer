@@ -20,7 +20,7 @@ body {
 	margin: 0 auto;
 }
 
-/* Comienzo de Nav */
+/* Nav */
 .container {
 	width: 1150px;
 	margin-right: auto;
@@ -89,7 +89,12 @@ li {
 	display: inline-block;
 }
 
-/* Comienzo de la Sección */
+.botones li:hover {
+	cursor: pointer;
+	color: #18BC9C;
+}
+
+/*comienzo sección FREELANCER*/
 .line {
 	border top: 3px solid #fff;
 	width: 50%;
@@ -115,6 +120,7 @@ li {
 	border-top: 10px;
 }
 
+/*Título BROOTSTRAP*/
 div h2 {
 	/*outline: 1px solid green;*/
 	text-transform: uppercase;
@@ -130,7 +136,7 @@ div h2 {
 	text-align: center;
 }
 
-/* Nueva sección que contiene al portafolio con imágenes*/
+/* Nueva sección - portafolio con imágenes*/
 .portafolio {
 	width: 100%;
 	height: 800px;
@@ -158,9 +164,33 @@ h3 {
 	font-size: 50px;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 90px;
 }
 
+/* Estrella y líneas*/
+.estrella1 {
+	float: left;
+    font-size: 35px;
+    color: #303e52;
+}
+
+.linea-izq1, .linea-der1 {
+    float: left;
+    width: 110px;
+    height: 5px;
+    background-color: #303e52 ;
+    margin-top: -20px;
+}
+
+.linea-izq1 {
+    margin-left: 600px;
+}
+
+.linea-der1 {
+    margin-left: 400px;
+}
+
+/*Imágenes del Portafolio*/
 #uno {
 	background-image: url(../assets/images/portfolio/cabin.png);
 	margin: 15px;
@@ -191,6 +221,16 @@ h3 {
 	margin: 15px;
 }
 
+.primeros3:hover {
+	cursor: pointer;
+}
+
+.segundos3:hover {
+	cursor: pointer;
+}
+
+/* Sección ABOUT */
+
 .about {
 	background: #18BC9C;
 	height: 700px;
@@ -201,6 +241,30 @@ h3 {
 .about h3 {
 	color: #fff;
 }
+
+/*Estrella y líneas*/
+.estrella2{
+	float: left;
+    font-size: 35px;
+    color: #303e52;
+}
+
+.linea-izq2, .linea-der2{
+    float: left;
+    width: 110px;
+    height: 5px;
+    background-color: #303e52 ;
+    margin-top: -20px;
+}
+
+.linea-izq2{
+    margin-left: 600px;
+ }
+
+.linea-der2{
+    margin-left: 400px;
+}
+
 
 /*Tabla para las columnas*/
 table {
@@ -257,14 +321,14 @@ td {
 /* Sección CONTACTME*/
 .contactame {
 	width: 100%;
-	height: 800px;
+	height: 500px;
 	padding: 0;
 	padding-left: 25%;
 	padding-right: 25%;
 }
 
 .container1 {
-	height: 900px; 
+	height: 300px; 
 	width: 900px;
 	margin: 0;
 	padding-bottom: 20px;
@@ -285,38 +349,119 @@ div p{
 	font-family: 'Montserrat', sans-serif; 
 }
 
-.container1 hr:last child{
-	padding-top: 100px;
+.contact{
+    width: 1000px;
+    height: 700px;
 }
 
-.boton {
+.contact h1{
+    text-transform: uppercase;
+    color: #26292e ;
+    font-size: 3em;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 630px;
+}
+
+/*Estrella y líneas*/
+
+.estrella3{
+	float: left;
+    font-size: 35px;
+    color: #303e52;
+}
+
+.linea-izq3, .linea-der3{
+    float: left;
+    width: 110px;
+    height: 5px;
+    background-color: #303e52 ;
+    margin-top: 20px;
+}
+
+.linea-izq3{
+    margin-left: 650px;
+    margin-right: 35px;
+}
+
+.linea-der3{
+    margin-left: 50px;
+}
+
+/* Formulario de contact me*/
+.contact-me{
+    width: 900px;
+    height: 500px;
+    text-align: center;
+}
+
+input {
+    width: 900px;
+    border: none;
+    margin-left: 255px;
+    border-bottom: 0.5px solid #EDEDEE ;
+    font-size: 1.6em;
+    font-family: 'Lato',sans-serif;
+    padding-bottom: 40px;
+}
+
+input:focus{
+    outline:0;
+}
+
+.nombre, .mail, .telefono, .mensaje{
+    width: 800px;
+    margin-left: 100px;
+    padding-top: 35px;
+}
+
+/*Mensaje*/
+
+#mensaj{
+	width: 900px;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.6em;
+    border: 0;
+    border-bottom: 0.5px solid #EDEDEE ;
+    resize: none;
+}
+
+.mensaje {
+    margin-left: 355px;
+}
+
+#mensaj:focus{
+    outline: 0;
+}
+
+/* Botón de envío */
+.but {
 	background-color: #18BC9C;
+	font-size: auto;
 	border-radius: 6px;
 	margin: 0 90%;
-	margin-left: 0; 
-}
-
-.boton p {
+	margin-left: 750px; 
 	color: #fff;
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
 	margin: 0;
-	padding: 5px
-	padding-bottom: 20px;
+	padding: 7px;
+	margin: 30px;
+	margin-left: 750px;
 }
 
-.boton:hover {
-	background-color: #FFF;
-	color: #18BC9C;
+.but:hover {
 	cursor: pointer;
 	transition: background-color 0.8s ease-out;
 }
 
+/* Footer */
 .class colum3 a {
 	color: #18BC9C;
 }
+
 table {
-	margin:auto;
+	margin top: 50px;
 	/*outline: 1px solid blue;*/
 }
 
@@ -331,53 +476,67 @@ td {
     padding-bottom: 20px;
 }
 
-.colum1 {
-	height: 300px;
-	width: 500px;
+.container2 {
+	height: 304px;
+	width: 100%;
+	font-size: 20px;
+	position: relative;
 }
 
-.colum2
- {
-	height: 300px;
-	width: 500px;
+.colum1 {
+	font-size: 19px;
+	height: 150px;
+	width: 250px;
+	color: #fff;
+	position: absolute;
+	margin-left: -670px;
+}
+
+.colum1 h3 {
+	font-size: 15px;
+	color: #fff;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+.container2 h2 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.colum2 {
+	font-size: 19px;
+	height: 150px;
+	width: 450px;
 	margin-top: 0;
+	color: #fff;
+	position: absolute;
+	margin-left: -300px;
+}
+
+.colum3 {
+	font-size: 19px;
+	height: 150px;
+	width: 450px;
+	margin-top: 0;
+	color: #fff;
+	position: absolute;
+	margin-left: 200px;
+}
+
+.colum3 h3 {
+	font-size: 15px;
+	color: #fff;
+	margin-top: 10px;
+	text-transform: capitalize;
 }
 
 .fondo3 {
-	height: 900px;
+	height: 305px;
 	width: auto;
 	background: #2C3E50;
 	padding: 0;
 	margin: 0;
 }
 
-/*.primero {
-	outline: 1px solid red;
-	font-size: 24px;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	/*color: #fff;*/
-	/*border-top: 0;
-	margin-top: 0;
-	border-right: auto;
-	padding-left: 180px;
-	float: left;
-	margin-right: 500px;
-	display: block;
-}
-
-.segundo {
-	/*outline: 1px solid purple; */
-	/*
-	font-size: 13px;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	/*color: #fff;*/
-}
-/*
-.segundo p {
-	outline: 1px solid black;
-	margin: 22px;
-	float: left;
-}
 

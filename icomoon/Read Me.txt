@@ -1,0 +1,17 @@
+FRELANCER
+Se comienza enlazando el css, icomoon y las fuentes a utilizar
+
+Luego en el navegador (nav) en una posición fija, donde están los link´s alineados con display: inline block además del logo de la página en la esquina superior izquierda como título.
+
+En la sección 1 se compone de de la primera página donde hay un título, una imágen centrada y en un solo div el resumen del contenido.
+
+En la sección 2 está el título PORTAFOLIO acompañado de la estrella linkeada de icomoon y líneas.
+luego 6 imágenes en distintos div para diferenciarlos en 2 tiras de imágenes compuestos de 3 imágenes cada uno y además para diferenciarlos aún más, cada imágen tiene un id distinto.
+
+Sección 3 ABOUT que está en formato título y también tiene un título con la estrella linkeada de icomoon y las 2 líneas.
+Además agregué 2 columnas. Además un botón con efecto transicional.
+
+Sección 4 "contact", titulado CONTACT ME por h1 y agregada también la estrella linkeada de icomoon junto con ambas líneas.
+Se incorporó un formulario con input en cada uno de los div: Name, email y phone a excepción del menssage donde se agregó un testarea. y Para enviar el mensaje el botton enviar en la parte final.
+
+Sección 5 FOOTER, puse 3 columnas para diferenciarlas y separarlas mas facilmente con un pequeño título por h2 y su contenido. en ABOUT FREELANCER agregué un link en "Start Bootstrap" y por último el fondo azul.
